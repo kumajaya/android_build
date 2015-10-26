@@ -46,7 +46,7 @@ class Options(object):
     self.signapk_path = "framework/signapk.jar"  # Relative to search_path
     self.extra_signapk_args = []
     self.java_path = "java"  # Use the one on the path by default.
-    self.java_args = "-Xmx2048m" # JVM Args
+    self.java_args = "-Xmx512m" # JVM Args
     self.public_key_suffix = ".x509.pem"
     self.private_key_suffix = ".pk8"
     # use otatools built boot_signer by default
